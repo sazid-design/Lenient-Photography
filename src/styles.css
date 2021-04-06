@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+body {
+  background-color: #eee;
+  align-items: center;
+  height: auto;
+}
+
+.appbar {
+  height: 100px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: xx-large;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Cinzel", serif;
+}
+
+.carousel-container {
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+
+.header-text {
+  color: black;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.paragraph-text {
+  color: white;
+  font-weight: 500;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.navbar {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.card-holder {
+  width: 70%;
+  height: 80vh;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.about-holder {
+  width: 90%;
+  height: 80%;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragraph {
+  width: 40%;
+  height: 90%;
+  padding-left: 100px;
+  text-align: justify;
+}
+
+.image {
+  width: 90%;
+}
+
+.imageholder {
+  padding-left: 150px;
+}
+
+.package-card {
+  width: 50%;
+  height: 50vh;
+  margin: 128px auto 0 auto;
+  border: 1px solid #eae3e3;
+}
+
+.service-header {
+  padding: 10px 0 10px 0;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
