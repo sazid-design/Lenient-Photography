@@ -4,6 +4,10 @@ import { Carousel, Button } from "react-bootstrap";
 import Mass from "../pictures/lenient3.jpg";
 import Effect from "../pictures/lenient1.jpg";
 import photo3 from "../pictures/lenient4.jpg";
+import ContactUs from "../components/Contactus";
+import { Link } from "react-router-dom";
+import Gallery from "../components/Gallery";
+import Portfolio from "../components/Portfolio";
 
 export default function Homepage() {
   return (
@@ -18,7 +22,9 @@ export default function Homepage() {
           />
           <Carousel.Caption>
             <h3 className="header-text">Make your wedding a memorable one</h3>
-            <Button variant="primary">Make Appointment online</Button>
+            <Link to="/email">
+              <Button variant="primary">Make Appointment online</Button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -51,6 +57,9 @@ export default function Homepage() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <div>
+        <Portfolio />
+      </div>
     </div>
   );
 }
