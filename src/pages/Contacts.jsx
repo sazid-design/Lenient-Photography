@@ -41,7 +41,7 @@ export default function Conatcts() {
           <Card.Title>Contact Information</Card.Title>
           <Card.Text>
             Labiba Ferdous : 01716516488 Email Address :
-            labibaferdousema@gmail.com
+            leninent.photos@gmail.com
           </Card.Text>
         </Card.Body>
       </Card>

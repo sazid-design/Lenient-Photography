@@ -7,6 +7,7 @@ import Homepage from "../pages/Homepage";
 import About from "../pages/About";
 import Package from "../pages/Package";
 import Contacts from "../pages/Contacts";
+import ContactUs from "./Contactus";
 
 export default function NavBar() {
   return (
@@ -42,6 +43,7 @@ export default function NavBar() {
         <Route path="/about" component={About}></Route>
         <Route path="/packages" component={Package}></Route>
         <Route path="/contacts" component={Contacts}></Route>
+        <Route path="/email" component={ContactUs}></Route>
       </BrowserRouter>
     </>
   );
